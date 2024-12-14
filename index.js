@@ -4,6 +4,7 @@
 
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json';
-import SignupScreen from './src/screens/loginScreens/SignupScreen';
+import Navigations from './src/navigations/Navigations';
+import 'react-native-gesture-handler';
 
-AppRegistry.registerComponent(appName, () => SignupScreen);
+AppRegistry.registerComponent(appName, () => Navigations);
